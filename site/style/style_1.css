@@ -1,0 +1,234 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Sintony-Regular";
+    src: url("../fonts/Sintony-Regular/SintonyRegular.eot");
+    src: url("../fonts/Sintony-Regular/SintonyRegular.woff") format("woff"),
+    url("../fonts/SintonyRegular.ttf") format("truetype"), 
+    url("../fonts/SintonyRegular.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family:"SintonyBold";
+    src:url("../fonts/Sintony_bold/Sintony-Bold.eot?") format("eot"),
+    url("../fonts/Sintony_bold/Sintony-Bold.woff") format("woff"),
+    url("../fonts/Sintony_bold/Sintony-Bold.ttf") format("truetype"),
+    url("../fonts/Sintony_bold/Sintony-Bold.svg#Sintony-Bold") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family: "HelveticaRegular";
+    src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
+    src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),
+    url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Quicksand Light Regular";
+    src: url("../fonts/Quicksand Light Regular/Quicksand Light Regular.eot");
+    src: local('☺'), url("../fonts/Quicksand Light Regular/Quicksand Light Regular.woff") format('woff'),
+    url("../fonts/Quicksand Light Regular/Quicksand Light Regular.ttf") format('truetype'), 
+    url("../fonts/Quicksand Light Regular/Quicksand Light Regular.svg") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "LatoBold";
+    src: url("../fonts/LatoBold/LatoBold.eot");
+    src: url("../fonts/LatoBold/LatoBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/LatoBold/LatoBold.woff") format("woff"),
+    url("../fonts/LatoBold/LatoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.wrap {
+    }
+    .home {}
+    .container {
+        max-width: 1180px;
+        margin: 0 auto;
+}
+.menu {
+}
+.header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0px;
+        right: 210px;
+        background-color: #fff;
+        z-index: 10;
+        }
+    header.nav {
+        height: 73px;
+        }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+        
+        .menu{
+            height: 70px;
+            background: #FFF;
+            position: relative;
+            font-size: 0;
+            z-index: 5;
+        }
+        .logo_header{
+            float: left;
+            padding: 6px 0 7px 5px;
+            margin-top: 5px;
+            background: #0E68AD;
+            height: 46.65px;
+            width: 62.65px;
+            z-index: 1;
+            border-radius: 10px 0 0 10px;
+        }
+        .logo_text{
+            float: left;
+            padding: 3px 12px 0 5px;
+            margin-top: 5px;
+            background: #0E68AD;
+            text-transform: uppercase;
+            font-family: "SintonyBold";
+            font-size: 35px;
+            line-height: 57px;
+            color: #fff;
+            z-index: 1;
+            border-radius: 0 10px 10px 0;
+        }
+        .logo_header:hover,
+        .logo_text:hover{
+            cursor: pointer;
+        }         
+            .menu_item {
+                float: left;
+                vertical-align: middle;
+                margin: 5px 3.5px 0;
+                padding: 20px 10px 20px;
+                border-radius: 10px;
+            }
+
+            .menu_item-name{
+                text-transform: uppercase;
+                font-family: "MyriadProRegular";
+                font-size: 20px;
+                color: #808285;
+            }
+            .menu_item:hover,
+            .is-active{
+                cursor: pointer;
+                background-color: #808285;
+            }
+            .menu_item:hover > .menu_item-name, .is-active > .menu_item-name{
+                 color: #fff;
+            }
+
+
+            
+
+    @media screen and (max-width: 1180px) {
+        .logo_text{
+            font-size: 18px;
+            line-height: 40px;
+
+        }
+        .logo_header{
+            height: 29.65px;
+            width: 36.65px;
+        }
+        .menu_item-name{
+                font-size: 14px;
+            }
+        .menu_item{
+            padding: 16px 10px 14px;,
+        }
+    }  
+            #pdf-001{
+                top: 70px;
+                position: relative;
+                width: 100%;
+                height: 873px;}
+
+#myExcelDiv {
+    position: relative;
+    top: 150px;
+}
